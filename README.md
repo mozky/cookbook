@@ -30,7 +30,7 @@ Notes:
 ## SSH
 
 ### Generate SSH key using ECDSA algorithm
-    ssh-keygen -f ~/.ssh/newKey.pem -t ecdsa -b 521
+    ssh-keygen -f ~/.ssh/newKey.key -t ecdsa -b 521
     
 ### Copy a SSH key to remote server
-    ssh-copy-id -i ~/.ssh/newKey moz@javiersl.com
+    ssh-copy-id -i ~/.ssh/newKey.key moz@javiersl.com
