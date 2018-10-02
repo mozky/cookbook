@@ -26,3 +26,11 @@ Notes:
 
 ### Copy the directory "foo" from local to a remote host's directory "bar"
     scp -r /home/woz/foo moz@javiersl.com:/home/moz/bar
+
+## SSH
+
+### Generate SSH key using ECDSA algorithm
+    ssh-keygen -f ~/.ssh/newKey.pem -t ecdsa -b 521
+    
+### Copy a SSH key to remote server
+    ssh-copy-id -i ~/.ssh/newKey moz@javiersl.com
