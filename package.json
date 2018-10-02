@@ -1,0 +1,13 @@
+{
+    "name": "coockbook",
+    "version": "1.0.0",
+    "description": "Well this is fast",
+    "author": "support@honeyofchicken.com",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.16.1"
+    }
+}
