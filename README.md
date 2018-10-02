@@ -1,9 +1,9 @@
 # Moz' Cookbook
 
 Notes:
- Remote host: javiersl.com
- Remote user: moz
- Local user: woz
+ - Remote host: javiersl.com
+ - Remote user: moz
+ - Local user: woz
 
 ## Network
 
