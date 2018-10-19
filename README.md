@@ -16,6 +16,9 @@ Notes:
 ### Test UDP connection
     echo > /dev/udp/javiersl.com/67 && echo "Connection established" || echo "Cant'connect to remote host"
 
+### Processes listening on certain port
+    sudo lsof -i -P -n | grep LISTEN
+
 ## Files & Directories
 
 ### Copy the file "foo.txt" from remote host to local
