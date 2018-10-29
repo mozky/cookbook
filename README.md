@@ -37,3 +37,8 @@ Notes:
     
 ### Copy a SSH key to remote server
     ssh-copy-id -i ~/.ssh/newKey.key moz@javiersl.com
+
+## Docker
+
+### Exec command inside container
+    docker exec -it <container name> <command>
