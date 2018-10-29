@@ -40,5 +40,5 @@ Notes:
 
 ## Docker
 
-### Exec command inside container
-    docker exec -it <container name> <command>
+### Exec command inside container [root]
+    docker exec -it [-u 0] <container name> <command>
