@@ -42,3 +42,11 @@ Notes:
 
 ### Exec command inside container [root]
     docker exec -it [-u 0] <container name> <command>
+
+## MySQL
+
+### Run SQL file into database
+    mysql -u root dest_db < newInfo.sql
+
+### Create dump of DB
+    mysqldump -u root --databases orig_db > newInfo.sql
