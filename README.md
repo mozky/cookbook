@@ -38,6 +38,9 @@ Notes:
 ### Copy a SSH key to remote server
     ssh-copy-id -i ~/.ssh/newKey.key moz@javiersl.com
 
+### Forward remote port 1234 to client's port 8888
+    ssh -L 8888:localhost:1234 moz@javiersl.com
+
 ## Docker
 
 ### Exec command inside container [root]
